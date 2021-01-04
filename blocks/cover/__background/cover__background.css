@@ -1,0 +1,11 @@
+.cover__background {
+    background-image: url(../../../images/cover-route-66.jpg);
+    width: 1184px;
+    height: 740px;
+    z-index: -2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-size: auto;
+    margin: auto;
+}

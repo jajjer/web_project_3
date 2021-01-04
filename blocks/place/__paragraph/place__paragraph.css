@@ -1,0 +1,11 @@
+@import url(./__1/place__paragraph__1.css);
+@import url(./__2/place__paragraph__2.css);
+@import url(./__3/place__paragraph__3.css);
+
+.place__paragraph {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 29.34px;
+    /*margin: 0px 0px auto 0px;*/
+    margin-top: 0px;
+}

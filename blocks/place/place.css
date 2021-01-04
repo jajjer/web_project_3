@@ -1,0 +1,19 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__website/place__website.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+    display: grid;
+    grid-template-columns: 1fr 1fr/*460px 484px*/;
+    grid-auto-rows: minmax(46px, auto);
+    grid-template-areas: 
+        "title website"
+        "photo paragraph-1"
+        "photo paragraph-2"
+        "photo paragraph-3";
+    grid-column-gap: 40px;
+    width: 984px;
+    height: auto;
+    margin-bottom: 81px;
+}
