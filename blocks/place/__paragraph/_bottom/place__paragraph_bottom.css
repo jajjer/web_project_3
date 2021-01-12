@@ -1,7 +1,5 @@
-.places {
-    margin: 82px auto;
-    max-width: 984px;
-    max-height: 3434px;
+.place__paragraph_bottom {
+    grid-area: paragraph-bottom;
 }
 
 @media screen and (max-width: 1024px) {

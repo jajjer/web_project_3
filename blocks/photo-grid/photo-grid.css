@@ -5,7 +5,19 @@
     grid-template-columns: 284px 284px 284px 284px;
     grid-template-rows: 213px 213px 213px 213px;
     grid-gap: 16px;
-    margin: 0px auto 92px;
-    width: 1184px;
-    height: 671px;
+    margin: 200px auto 92px;
+    max-width: 1184px;
+    max-height: 671px;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    
 }

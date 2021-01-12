@@ -1,5 +1,23 @@
 .place__website-link {
-    color: #FFFFFF;
+    font-family: Inter-Regular;
     font-size: 18px;
     line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.place__website-link:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    
 }

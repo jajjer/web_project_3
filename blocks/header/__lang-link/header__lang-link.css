@@ -1,9 +1,27 @@
 .header__lang-link {
- width: 29px;
- height: 28px;
+ max-width: 29px;
+ max-height: 28px;
  color: #FFFFFF;
+ text-decoration: none;
 }
 
 .header__lang-link:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        width: 22px;
+        height: 20px;
+    }
     
 }

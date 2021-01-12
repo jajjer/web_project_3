@@ -1,7 +1,20 @@
 .place__title {
+    font-family: Inter-Black;
     color: #FFFFFF;
     font-size: 72px;
     line-height: 76px;
     grid-area: title;
     margin: 0px 0px 48px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    
 }

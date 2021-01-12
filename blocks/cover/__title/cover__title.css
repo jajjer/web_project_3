@@ -1,9 +1,22 @@
 .cover__title {
     color: #FFFFFF;
+    font-family: ;
     font-size: 72px;
     line-height: 76px;
     margin: 283px 264px 0px;
     z-index: 1;
-    width: 656px;
-    height: 76px;
+    max-width: 656px;
+    max-height: 76px;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    
 }

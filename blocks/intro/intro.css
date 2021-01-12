@@ -6,7 +6,19 @@
 .intro {
     display: flex;
     flex-direction: column;
-    width: 690px;
-    height: 569px;
+    max-width: 690px;
+    max-height: 569px;
     margin: 92px 442px 40px 148px;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    
 }

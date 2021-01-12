@@ -5,8 +5,20 @@
 
 .cover {
     position: relative;
-    width: auto;
-    height: auto;
+    max-width: auto;
+    max-height: auto;
     border: #2A2C2F 0.1px solid;
     margin: 94px auto;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    
 }
