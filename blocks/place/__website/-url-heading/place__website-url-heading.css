@@ -1,4 +1,6 @@
 .place__website-url-heading {
+    font-family: Inter;
+    font-weight: 400;
     color: #AAAAAA;
     font-size: 12px;
     line-height: 20.4px;
@@ -9,6 +11,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .place__website-url-heading {
+        line-height: 12px;
+    }
 
 }
 

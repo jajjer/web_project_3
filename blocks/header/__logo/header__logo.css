@@ -1,8 +1,10 @@
 .header__logo {
-    max-height: 44px;
-    max-width: 190px;
+    /*max-height: 44px;*/
+    /*max-*/width: 100%;
+    padding-top: 23.15%;
     background-image: url(../../../images/logo.svg);
     margin-right: 720px;
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +22,5 @@
 @media screen and (max-width: 320px) {
     .header__logo {
         margin-right: 71px;
-        height: 36px;
-        width: 156px;
     }
 }

@@ -14,18 +14,36 @@
         "photo paragraph-bottom";
     grid-column-gap: 40px;
     max-width: 984px;
-    max-height: auto;
+    /*max-height: auto;*/
     margin-bottom: 81px;
 }
 
-@media screen and (max-width: 1024px) {
+.place:last-child {
+    margin-bottom: 0px;
+    grid-column-gap: 40px;
+}
 
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-
+    .place {
+        max-width: 720px;    
+}
 }
 
 @media screen and (max-width: 320px) {
-    
+    .place {
+        max-width: 320px;
+        grid-template-areas: 
+        "title" 
+        "website"
+        "photo"
+        "paragraph-top"
+        "paragraph-middle"
+        "paragraph-bottom";
+    }
 }

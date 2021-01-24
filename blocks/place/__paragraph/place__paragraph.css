@@ -4,7 +4,8 @@
 
 .place__paragraph {
     margin-top: 0px;
-    font-family: Inter-Regular;
+    font-family: Inter;
+    font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     /* or 29px */

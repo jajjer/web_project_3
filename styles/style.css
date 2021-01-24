@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "Inter";
+  src: url(../vendor/fonts/Inter-V.ttf);
+}
+
+/*@font-face {
   font-family: Inter-Regular;
   src: url(../vendor/fonts/Inter-Regular.otf);
 }
@@ -11,7 +16,7 @@
 @font-face {
   font-family: Inter-Black;
   src: url(../vendor/fonts/Inter-Black.otf);
-}
+}*/
 
 .page {
   display: flex;
@@ -23,7 +28,7 @@
     /* here we've set a maximum page width */
     margin: 0 auto;
     /* this ensures that all content is centered on screens wider than 1600px */
-    font-family: "Inter-Regular", Inter-Bold, Inter-Black;
+    font-family: "Inter", Arial, Helvetica;
     position: relative;
     /* to make things appear in front of other blocks on smaller screens? */
     /* this is a test*/
