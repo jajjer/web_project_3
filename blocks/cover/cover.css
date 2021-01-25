@@ -4,12 +4,14 @@
 @import url(./__background/cover__background.css);
 
 .cover {
-    /*position: relative;
-    /*max-width: 1184px;
-    max-height: auto;
-    border: #2A2C2F 0.1px solid;*/
+    
+    /*max-width: 1184px;*/
+    width: 100%;
+    /*max-height: auto;
+    /*border: #2A2C2F 0.1px solid;*/
     margin: 0px auto;
-    /*position: relative;*/
+    position: relative;
+    display: flex;
 }
 
 @media screen and (max-width: 1024px) {

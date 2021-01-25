@@ -1,7 +1,7 @@
 .cover__background {
     background-image: url(../../../images/cover-route-66.jpg) /*no-repeat center*/;
     background-repeat: no-repeat;
-    display: block;
+    display: inline-block;
     /*max-width: 1184px;
     max-height: 740px;*/
     
@@ -14,7 +14,7 @@
     width: 100%;
     padding-top: 62.5%;
     background-size: contain;
-   /* position: absolute;*/
+    position: absolute;
 }
 
 @media screen and (max-width: 1024px) {
