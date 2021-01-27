@@ -5,16 +5,29 @@
     /*max-width: 1184px;
     max-height: 740px;*/
     
-    /*position: absolute;
-   /* left: 0px;
-    top: 0px;*/
+    /*position: absolute;*/
+    left: 0px;
+    top: -300px;
     
     /*margin: auto;*/
     z-index: -2;
     width: 100%;
     padding-top: 62.5%;
+    background-size: cover;
+    justify-content: center;
+}
+
+.cover__background::before {
+    display: ;
+    width: 100%;
+    padding-top: 62.5%;
     background-size: contain;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
     position: absolute;
+    border: 5px red solid;
+
 }
 
 @media screen and (max-width: 1024px) {

@@ -4,14 +4,15 @@
 @import url(./__background/cover__background.css);
 
 .cover {
-    
-    /*max-width: 1184px;*/
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1184px;
     width: 100%;
     /*max-height: auto;
     /*border: #2A2C2F 0.1px solid;*/
     margin: 0px auto;
-    position: relative;
+    padding: 292px 48px;
     display: flex;
+    border: 5px solid blue;
 }
 
 @media screen and (max-width: 1024px) {

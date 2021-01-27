@@ -7,7 +7,7 @@
     margin: 283px auto 0px;
     z-index: 1;
     max-width: 656px;
-    position: absolute;
+    /*position: absolute;*/
     justify-content: center;
 }
 

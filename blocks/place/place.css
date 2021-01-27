@@ -4,6 +4,7 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
+    font-family: 'Inter', Arial, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr/*460px 484px*/;
     grid-auto-rows: minmax(46px, auto);

@@ -4,6 +4,7 @@
 @import url(./__title/lead__title.css);
 
 .lead {
+    font-family: 'Inter', Arial, sans-serif;
     max-width: 984px;
     /*max-height: 1005px;*/
     display: flex;

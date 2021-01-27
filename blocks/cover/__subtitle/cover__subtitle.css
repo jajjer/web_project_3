@@ -9,7 +9,8 @@
     margin: 391px 432px 283px;
     text-align: center;
     z-index: 1;
-    position: absolute;
+    /*position: absolute;*/
+    justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {

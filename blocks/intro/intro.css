@@ -4,6 +4,7 @@
 @import url(./__list/intro__list.css);
 
 .intro {
+    font-family: 'Inter', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     max-width: 690px;
