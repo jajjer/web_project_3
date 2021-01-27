@@ -7,13 +7,13 @@
     flex-direction: row;
     /*max-height: 44px;*/
     max-width: 984px;
-    margin: 34px auto 58px;
+    /*margin: 34px auto 58px;*/
     justify-items: center;
 }
 
 @media screen and (max-width: 1024px) {
     .header {
-        margin: 34px auto 50px;
+        /*margin: 34px auto 50px;*/
         max-width: 928px;
     }
 
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        margin: 34px auto 50px;
+        /*margin: 34px auto 50px;*/
         max-width: 720px;
     }
 
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 320px) {
     .header {
-        margin: 20px auto 50px;
+        /*margin: 20px auto 50px;*/
         max-width: 288px;
     }
 }

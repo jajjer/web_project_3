@@ -6,28 +6,27 @@
     line-height: 22px;
     max-width: 320px;
     /*max-height: 66px;*/
-    margin: 391px 432px 283px;
-    text-align: center;
+    /*text-align: center;*/
     z-index: 1;
     /*position: absolute;*/
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        margin: 341px 352px 233px;
+        /*margin: 341px 352px 233px;*/
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
-        margin: 261px 224px 153px;
+        /*margin: 261px 224px 153px;*/
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         max-width: 288px;
-        margin: 102px 16px 50px;
+       /* margin: 102px 16px 50px;*/
     }
 }

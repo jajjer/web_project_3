@@ -6,13 +6,8 @@
 .cover {
     font-family: 'Inter', Arial, sans-serif;
     max-width: 1184px;
-    width: 100%;
-    /*max-height: auto;
-    /*border: #2A2C2F 0.1px solid;*/
-    margin: 0px auto;
-    padding: 292px 48px;
-    display: flex;
-    border: 5px solid blue;
+    /*margin: 0px auto;*/
+    padding: 92px 48px 94px ;
 }
 
 @media screen and (max-width: 1024px) {

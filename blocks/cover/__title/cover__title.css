@@ -4,16 +4,16 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    margin: 283px auto 0px;
     z-index: 1;
     max-width: 656px;
     /*position: absolute;*/
-    justify-content: center;
+    /*justify-content: center;*/
 }
+
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        margin: 233px auto 331px;
+        /*margin: 233px auto 331px;*/
         max-width: 656px;
     }
 }
@@ -21,7 +21,7 @@
 @media screen and (max-width: 768px) {
     .cover__title {
         max-width: 656px;
-        margin: 153px auto 251px;
+        /*margin: 153px auto 251px;*/
     }
 }
 
@@ -30,6 +30,6 @@
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
-        margin: 51px auto 114px;
+        /*margin: 51px auto 114px;*/
     }
 }

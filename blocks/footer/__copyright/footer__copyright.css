@@ -4,19 +4,20 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    margin/*-left*/: 0px 0px 0px 805px;
+    /*margin/*-left: 0px 0px 0px 805px;*/
     display: inline;
+    align-items: right;
 }
 
 @media screen and (max-width: 1024px) {
     .footer__copyright {
-        margin/*-left*/: 0px 0px 0px 549px;
+        /*margin/*-left: 0px 0px 0px 549px;*/
     }
 }
 
 @media screen and (max-width: 768px) {
     .footer__copyright {
-        margin/*-left*/: 0px 0px 0px 341px;
+        /*margin/*-left: 0px 0px 0px 341px;*/
     }
 }
 
@@ -24,5 +25,4 @@
     .footer__copyright {
         line-height: 14px;
     }
-    
 }

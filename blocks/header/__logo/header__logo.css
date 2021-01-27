@@ -3,24 +3,24 @@
     /*max-*/width: 100%;
     padding-top: 23.15%;
     background-image: url(../../../images/logo.svg);
-    margin-right: 720px;
+    padding-right: 720px;
     background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
     .header__logo {
-        margin-right: 664px;
+        padding-right: 664px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header__logo {
-        margin-right: 456px;
+        padding-right: 456px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header__logo {
-        margin-right: 71px;
+        padding-right: 71px;
     }
 }
