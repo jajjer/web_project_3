@@ -7,20 +7,20 @@
     /*margin/*-left: 0px 0px 0px 805px;*/
     display: inline;
     /*align-items: right;*/
-    padding-left: 805px;
+   /* padding-left: 805px;*/
 }
 
 @media screen and (max-width: 1024px) {
     .footer__copyright {
         /*margin/*-left: 0px 0px 0px 549px;*/
-        padding-left: 549px;
+       /* padding-left: 549px;*/
     }
 }
 
 @media screen and (max-width: 768px) {
     .footer__copyright {
         /*margin/*-left: 0px 0px 0px 341px;*/
-        padding-left: 341px;
+        /*padding-left: 341px;*/
     }
 }
 

@@ -9,6 +9,7 @@
     max-width: 984px;
     /*margin: 34px auto 58px;*/
     justify-items: center;
+    padding-top: 34px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -31,5 +32,6 @@
     .header {
         /*margin: 20px auto 50px;*/
         max-width: 288px;
+        padding-top: 20px;
     }
 }
