@@ -7,7 +7,7 @@
     flex-direction: row;
     /*max-height: 44px;*/
     max-width: 984px;
-    /*margin: 34px auto 58px;*/
+    margin: 0 auto;
     justify-items: center;
     padding-top: 34px;
 }

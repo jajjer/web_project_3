@@ -16,15 +16,15 @@
     content: '';
     width: 100%;
     min-height: 740px;
-    background-size: contain;
+    background-size: cover;
     background-color: #2A2C2F;
-    opacity: 0.3;
-    z-index: 2;
+    opacity: 0.8;
+    z-index: 1;
     position: absolute;
-    top: 0;
+    /*top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 0;*/
 }
 
 @media screen and (max-width: 1024px) {
