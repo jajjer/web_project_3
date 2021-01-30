@@ -11,7 +11,6 @@
     justify-content: center;
     /*justify-content: space-between;*/
     align-items: center;
-    border: 5px blue solid;
 }
 
 @media screen and (max-width: 1024px) {

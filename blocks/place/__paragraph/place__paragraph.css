@@ -1,7 +1,3 @@
-@import url(./_top/place__paragraph_top.css);
-@import url(./_middle/place__paragraph_middle.css);
-@import url(./_bottom/place__paragraph_bottom.css);
-
 .place__paragraph {
     margin-top: 0px;
     font-family: 'Inter', Arial, sans-serif;
@@ -12,14 +8,30 @@
     color: #FFFFFF;
 }
 
+.place__paragraph:first-child {
+    margin-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+    margin-top: 27px;
+}
+
 @media screen and (max-width: 1024px) {
 
 }
 
 @media screen and (max-width: 768px) {
+    .place__paragraph:first-child {
+        margin-bottom: 25px;
+    }
 
+    .place__paragraph:last-child {
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    
+    .place__paragraph:last-child {
+        margin-top: 26px;
+    }
 }

@@ -10,9 +10,9 @@
     grid-auto-rows: minmax(46px, auto);
     grid-template-areas: 
         "title website"
-        "photo paragraph-top"
-        "photo paragraph-middle"
-        "photo paragraph-bottom";
+        "photo paragraph"
+        "photo paragraph"
+        "photo paragraph";
     grid-column-gap: 40px;
     max-width: 984px;
     /*max-height: auto;*/
