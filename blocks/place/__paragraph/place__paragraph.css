@@ -3,35 +3,39 @@
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
-    /* or 29px */
+    line-height: 29.34px;
     color: #FFFFFF;
+    /*margin-bottom: 26px;*/
+    max-width: 484px;
+    grid-area: paragraph;
 }
 
-.place__paragraph:first-child {
-    margin-bottom: 26px;
-}
+.place__paragraph:first-child { 
+    margin-bottom: 26px; 
+} 
 
-.place__paragraph:last-child {
-    margin-top: 27px;
+ 
+.place__paragraph:last-child { 
+    margin-top: 26px; 
 }
 
 @media screen and (max-width: 1024px) {
-
+    .place__paragraph {
+    max-width: 456px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph:first-child {
-        margin-bottom: 25px;
-    }
-
-    .place__paragraph:last-child {
-        margin-top: 25px;
+    .place__paragraph {
+     font-size: 16px;
+     line-height: 26.08;
+     max-width: 352px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph:last-child {
         margin-top: 26px;
+        max-width: 288px;
     }
 }

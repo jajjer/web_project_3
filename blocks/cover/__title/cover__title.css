@@ -4,26 +4,11 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    z-index: 1;
+    z-index: 2;
     max-width: 656px;
     text-align: center;
     /*position: absolute;*/
     /*justify-content: center;*/
-}
-
-
-@media screen and (max-width: 1024px) {
-    .cover__title {
-        /*margin: 233px auto 331px;*/
-        max-width: 656px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__title {
-        max-width: 656px;
-        /*margin: 153px auto 251px;*/
-    }
 }
 
 @media screen and (max-width: 320px) {

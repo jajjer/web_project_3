@@ -6,14 +6,6 @@
     color: #FFFFFF;
     margin: 0px 0px 40px 0px;
     max-width: 690px;
-    /*max-height: 116px;*/
-}
-
-@media screen and (max-width: 1024px) {
-    .intro__title {
-        max-width: 690px;
-    }
-
 }
 
 @media screen and (max-width: 768px) {

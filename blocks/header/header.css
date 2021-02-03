@@ -1,15 +1,15 @@
-@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang/header__lang.css);
 @import url(./__logo/header__logo.css);
 
 .header {
     font-family: 'Inter', Arial, sans-serif;
     display: flex;
     flex-direction: row;
-    /*max-height: 44px;*/
     max-width: 984px;
     margin: 0 auto;
     justify-items: center;
     padding-top: 34px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width: 1024px) {

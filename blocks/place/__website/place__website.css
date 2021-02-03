@@ -1,27 +1,41 @@
-@import url(./-url-heading/place__website-url-heading.css);
-@import url(./-link/place__website-link.css);
-
 .place__website {
     color: #FFFFFF;
     list-style: none;
     grid-area: website;
-    /*max-width: 456px;
-    max-height: 46px;*/
     margin: 0px;
     padding-left: 0px;
 }
 
-@media screen and (max-width: 1024px) {
-
+.place__website-url-heading {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    color: #AAAAAA;
+    font-size: 12px;
+    line-height: 20.4px;
+    letter-spacing: 0.2em;
 }
 
-@media screen and (max-width: 768px) {
+.place__website-link {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
 
+.place__website-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
     .place__website {
         display: none;
     }
-    
+}
+
+@media screen and (max-width: 768px) {
+    .place__website-url-heading {
+        line-height: 12px;
+    }
 }
