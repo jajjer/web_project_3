@@ -5,12 +5,11 @@
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
-    padding-right: 18px;
-    padding-left: 0px;
+    margin: 0 18px;
 }
 
 .footer__link-item:last-child {
-    padding-right: 0px;
+    margin-right: 0px;
 }
 
 .footer__link-item:hover {

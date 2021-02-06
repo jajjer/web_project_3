@@ -7,11 +7,24 @@
     margin-left: 0;
     margin-right: 0;
     padding-left: 0px;
+    max-width: 211px;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer__link-list {
+        max-width: ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__link-list {
+        max-width: ;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .footer__link-list {
         flex-direction: column;
+        max-width: ;
     }
 }
