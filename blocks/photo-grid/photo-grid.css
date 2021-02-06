@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
     justify-content: center;
-    width: 100%;
+    max-width: 1184px;
     margin: 0 auto;
 }
 
@@ -13,6 +13,7 @@
     .photo-grid {
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 14px;
+        max-width: 928px;
     }
 }
 
@@ -20,6 +21,7 @@
     .photo-grid {
         grid-template-columns: 1fr 1fr;
         grid-gap: 16px;
+        max-width: 720px;
     }
 }
 
@@ -27,5 +29,6 @@
     .photo-grid {
         grid-template-columns: 1fr;
         grid-gap: 12px;
+        max-width: 288px;
     }
 }

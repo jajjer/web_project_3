@@ -4,30 +4,32 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    /*margin/*-left: 0px 0px 0px 805px;*/
-    display: inline;
-    /*align-items: right;*/
-   padding-left: 67.9%;
-   text-align: right;
-   align-self: flex-end;
+    align-self: flex-end;
+
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    padding-left: 805px;
 }
 
 @media screen and (max-width: 1024px) {
     .footer__copyright {
-        /*margin/*-left: 0px 0px 0px 549px;*/
-       padding-left: 59%;
+        padding-left: 549px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .footer__copyright {
-        /*margin/*-left: 0px 0px 0px 341px;*/
-        padding-left: 47.3%;
+        padding-left: 341px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer__copyright {
         line-height: 14px;
+        padding-left: 0px;
     }
 }

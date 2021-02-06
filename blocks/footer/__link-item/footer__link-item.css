@@ -4,11 +4,9 @@
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
-    padding-left: 0px;
-    padding-right: 18px;
-    /*max-width: auto;
-    max-height: 16px;*/
     text-decoration: none;
+    padding-right: 18px;
+    padding-left: 0px;
 }
 
 .footer__link-item:last-child {

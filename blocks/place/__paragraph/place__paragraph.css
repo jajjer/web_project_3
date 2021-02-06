@@ -5,9 +5,7 @@
     font-size: 18px;
     line-height: 29.34px;
     color: #FFFFFF;
-    /*margin-bottom: 26px;*/
     max-width: 484px;
-    grid-area: paragraph;
 }
 
 .place__paragraph:first-child { 

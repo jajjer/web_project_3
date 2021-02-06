@@ -1,22 +1,20 @@
 @import url(./__title/place__title.css);
 @import url(./__image/place__image.css);
 @import url(./__website/place__website.css);
+@import url(./__text/place__text.css);
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
     font-family: 'Inter', Arial, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr/*460px 484px*/;
-    /*grid-auto-rows: minmax(46px, auto);*/
+    grid-auto-rows: minmax(46px, auto);
     grid-template-areas: 
         "title website"
-        "photo paragraph"
-        "photo paragraph"
         "photo paragraph";
     grid-column-gap: 40px;
     max-width: 984px;
-    /*max-height: auto;*/
-    margin-bottom: 81px;
+    margin-bottom: 73px;
 }
 
 .place:last-child {
@@ -43,8 +41,6 @@
         "title" 
         "website"
         "photo"
-        "paragraph-top"
-        "paragraph-middle"
-        "paragraph-bottom";
+        "paragraph";
     }
 }
