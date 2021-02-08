@@ -13,21 +13,10 @@
     /*justify-content: center;*/
 }
 
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        /*margin: 341px 352px 233px;*/
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        /*margin: 261px 224px 153px;*/
-    }
-}
-
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         max-width: 288px;
-       /* margin: 102px 16px 50px;*/
+        font-size: 14px;
+        line-height: 16px;
     }
 }

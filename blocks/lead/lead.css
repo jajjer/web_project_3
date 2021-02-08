@@ -2,35 +2,32 @@
 @import url(./__image/lead__image.css);
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__title/lead__title.css);
-
 .lead {
     font-family: 'Inter', Arial, sans-serif;
     max-width: 984px;
-    /*max-height: 1005px;*/
     display: flex;
     flex-direction: column;
-    margin: 0px auto 92px;
+    margin: 58px auto 92px;
     position: relative;
-    padding-bottom: 88px;
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
-        margin: 0px auto 92px;
+        margin: 50px auto 92px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 768px;
-        margin: 0px auto 88px;
+        margin: 50px auto 88px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead {
         max-width: 320px;
-        margin: 0px auto 64px;
+        margin: 50px auto 64px;
     }
 }

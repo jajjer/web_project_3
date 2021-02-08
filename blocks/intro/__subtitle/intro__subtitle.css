@@ -5,17 +5,13 @@
     line-height: 34px;
     color: #FFFFFF;
     max-width: 690px;
-}
-
-@media screen and (max-width: 1024px) {
-
+    margin: 0 0 33px 0;
 }
 
 @media screen and (max-width: 768px) {
     .intro__subtitle {
         max-width: 720px;
     }
-
 }
 
 @media screen and (max-width: 320px) {

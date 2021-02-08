@@ -5,31 +5,23 @@
     line-height: 16px;
     color: #FFFFFF;
     align-self: flex-end;
-
     display: block;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-
-    padding-left: 805px;
 }
 
 @media screen and (max-width: 1024px) {
-    .footer__copyright {
-        padding-left: 549px;
-    }
+    .footer__copyright {}
 }
 
 @media screen and (max-width: 768px) {
-    .footer__copyright {
-        padding-left: 341px;
-    }
+    .footer__copyright {}
 }
 
 @media screen and (max-width: 320px) {
     .footer__copyright {
         line-height: 14px;
-        padding-left: 0px;
     }
 }
