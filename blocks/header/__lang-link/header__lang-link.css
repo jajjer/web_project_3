@@ -12,11 +12,6 @@
     padding-right: 0px;
 }
 
-a:active.header__lang-link {
-    opacity: 0.8;
-    text-decoration: underline;
-}
-
 @media screen and (max-width: 568px) {
     .header__lang-link {
         width: auto;

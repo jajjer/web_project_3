@@ -6,6 +6,7 @@
     color: #FFFFFF;
     text-decoration: none;
     padding-right: 18px;
+    transition: opacity 0.4s ease-in;
 }
 
 .footer__link-item:last-child {

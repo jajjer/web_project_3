@@ -1,3 +1,5 @@
 Project 3: From Porland to Portland
 
-This project took a lot of time and was very frustrating. I used html and css. This is my first project using grid, which was nice. 
+This project is a website that shows you (the audience) different parts of the USA, a road trip if you will.
+
+I constructed the site using HTML and CSS. I was able to integrate my new knowledge of flex-grid and media queries.
