@@ -1,6 +1,7 @@
 @import url(./__title/place__title.css);
 @import url(./__image/place__image.css);
 @import url(./__website/place__website.css);
+@import url(./__website-url-heading/place__website-url-heading.css);
 @import url(./__text/place__text.css);
 @import url(./__paragraph/place__paragraph.css);
 .place {
@@ -32,10 +33,11 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .place {
         max-width: 320px;
         grid-template-areas: "title" "website" "photo" "paragraph";
         grid-template-columns: 1fr;
+        grid-row-gap: 0;
     }
 }
